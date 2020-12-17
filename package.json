@@ -1,7 +1,7 @@
 {
-  "name": "brave",
+  "name": "safe-browser",
   "version": "1.20.25",
-  "description": "Next generation Brave browser for macOS, Windows, Linux, and eventually Android",
+  "description": "Safe browser for macOS, Windows, Linux, and eventually Android",
   "scripts": {
     "audit_deps": "npm --prefix src/brave run audit_deps --",
     "cibuild": "npm --prefix src/brave run cibuild --",
@@ -39,14 +39,14 @@
         "dir": "src/brave",
         "branch": "master",
         "repository": {
-          "url": "https://github.com/brave/brave-core.git"
+          "url": "https://github.com/adrianhrinko/safe-browser-core.git"
         }
       }
     }
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brave/brave-browser.git"
+    "url": "git+https://github.com/adrianhrinko/safe-browser.git"
   },
   "author": {
     "name": "Brave Software <support@brave.com>"
